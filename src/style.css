@@ -1,0 +1,48 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #f0f2f7;
+  --card: #ffffff;
+  --accent: #e94560;
+  --text: #1a1a2e;
+  --muted: #9a9ab0;
+  --border: #ebebf5;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  --shadow-hover: 0 6px 24px rgba(0, 0, 0, 0.12);
+  --radius: 14px;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+/* ── Type colors ─────────────────────────────────── */
+.type-normal   { background: #a8a878; color: #fff; }
+.type-fire     { background: #f08030; color: #fff; }
+.type-water    { background: #6890f0; color: #fff; }
+.type-grass    { background: #78c850; color: #fff; }
+.type-electric { background: #f8d030; color: #555; }
+.type-ice      { background: #98d8d8; color: #555; }
+.type-fighting { background: #c03028; color: #fff; }
+.type-poison   { background: #a040a0; color: #fff; }
+.type-ground   { background: #e0c068; color: #555; }
+.type-flying   { background: #a890f0; color: #fff; }
+.type-psychic  { background: #f85888; color: #fff; }
+.type-bug      { background: #a8b820; color: #fff; }
+.type-rock     { background: #b8a038; color: #fff; }
+.type-ghost    { background: #705898; color: #fff; }
+.type-dragon   { background: #7038f8; color: #fff; }
+.type-dark     { background: #705848; color: #fff; }
+.type-steel    { background: #b8b8d0; color: #555; }
+.type-fairy    { background: #ee99ac; color: #555; }
