@@ -1,5 +1,24 @@
-# Vue 3 + Vite
+# Pokédex (Vue 3)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A small Pokédex built with **Vue 3 (`<script setup>`) and Vite**. Browse Pokémon as cards, open a detail view, and narrow the list with search, sorting and filters by type, strength and weakness.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+
+- Searchable, sortable grid of Pokémon cards
+- Filters by type, strength and weakness, with a reset button
+- Detail view for each Pokémon
+- Loading overlay and error message when the data cannot be fetched
+
+## Run it
+
+```bash
+npm install
+npm run dev      # development
+npm run build    # production build
+```
+
+Pushing to `main` deploys the app to GitHub Pages (see `.github/workflows/deploy.yml`).
+
+## Stack
+
+Vue 3 · Vite · plain CSS
